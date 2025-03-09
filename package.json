@@ -4,7 +4,8 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node App.js",
+    "dev": "nodemon App.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/umayanga23/nodejsBegin#readme",
   "dependencies": {
     "boostrap": "^2.0.0",
-    "loadsh": "^0.0.4"
+    "loadsh": "^0.0.4",
+    "nodemon": "^3.1.9"
   }
 }
