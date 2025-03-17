@@ -15,4 +15,9 @@ const products = [
   }
 ];
 
-module.exports = { products };
+const person = {
+  name: "bob",
+  age: 34,
+};
+
+module.exports = { products, person };
